@@ -1,5 +1,9 @@
 <script setup>
 //http://localhost:3000/products/33
+definePageMeta({
+    layout: 'products'
+})
+
 const { id } = useRoute().params
 </script>
 

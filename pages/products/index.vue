@@ -1,14 +1,16 @@
-<template>
-<div>
-    <h2>Products Home Page</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas ducimus
-    </p>
-</div>
-</template>
-
 <script setup>
-
+definePageMeta({
+    layout: 'products'
+})
 </script>
+
+<template>
+    <div>
+        <h2>Products Home Page</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas ducimus
+        </p>
+    </div>
+    </template>
 
 <style scoped>
 h2 {
