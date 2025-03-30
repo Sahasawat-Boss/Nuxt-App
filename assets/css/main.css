@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-.apply-test {
-    @apply text-red-400 font-semibold hover:cursor-pointer
-}
-
 body {
     @apply bg-gray-50;
 }

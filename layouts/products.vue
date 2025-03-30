@@ -6,10 +6,7 @@
                 <NuxtLink to="/products" class="font-bold">Nuxt App Product</NuxtLink>
             </nav>
         </header>
-        <div class="container mx-auto p-4">
-            <slot />
-        </div>
-        <footer class="container mx-auto p-4 flex justify-between border-t-2">
+        <nav class="container mx-auto p-4 flex justify-between border-t-1">
             <ul class="flex gap-4">
                 <li>
                     <NuxtLink to="/" active-class="text-blue-500">Home</NuxtLink>
@@ -21,9 +18,21 @@
                     <NuxtLink to="/products" class="btn" active-class="text-blue-200">Products</NuxtLink>
                 </li>
             </ul>
-        </footer>
+        </nav>
     </main>
+    <div class="container mx-auto p-4">
+        <slot />
+    </div>
+
+    <!-- Simple Footer -->
+    <footer class="text-center py-4 mt-8 text-sm text-gray-600 shadow-top">
+        &copy; {{ new Date().getFullYear() }} Nuxt App — Built with ❤️ by Boss
+    </footer>
 </template>
 
 <style scoped>
+.shadow-top {
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.05),
+        0 -2px 4px -2px rgba(0, 0, 0, 0.05);
+}
 </style>

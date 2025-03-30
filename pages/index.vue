@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h2 class="apply-test">App Home Page</h2>
+        <h2 class="">App Home Page</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas
             ducimus
         </p>
