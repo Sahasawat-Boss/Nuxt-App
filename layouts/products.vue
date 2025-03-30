@@ -12,13 +12,13 @@
         <footer class="container mx-auto p-4 flex justify-between border-t-2">
             <ul class="flex gap-4">
                 <li>
-                    <NuxtLink to="/">Home</NuxtLink>
+                    <NuxtLink to="/" active-class="text-blue-500">Home</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/about">About</NuxtLink>
+                    <NuxtLink to="/about" active-class="text-blue-500">About</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/products">Merch</NuxtLink>
+                    <NuxtLink to="/products" class="btn" active-class="text-blue-200">Products</NuxtLink>
                 </li>
             </ul>
         </footer>
@@ -26,7 +26,4 @@
 </template>
 
 <style scoped>
-.router-link-exact-active {
-    color: rgb(85, 193, 75);
-}
 </style>
