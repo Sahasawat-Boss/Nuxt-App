@@ -9,6 +9,7 @@
 
 <script setup>
 
+console.log("Welcome to Nuxt App Home Page!")
 </script>
 
 <style scoped>
