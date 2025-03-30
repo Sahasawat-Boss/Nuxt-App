@@ -1,41 +1,33 @@
 <template>
     <main>
-        <header>
-            <nav>
-                <h2>Nuxt App Nav</h2>
-                <li>
-                    <NuxtLink to="/">Home</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink to="/about">About</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink to="/products">Products</NuxtLink>
-                </li>
+        <header class="shadow-sm">
+            <nav class="container mx-auto p-4 flex justify-between">
+                <NuxtLink to="/" class="font-bold">Nuxt App Test</NuxtLink>
+                <ul class="flex gap-4">
+                    <li>
+                        <NuxtLink to="/">Home</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about">About</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/products" class="btn">Products</NuxtLink>
+                    </li>
+                </ul>
             </nav>
-            <br>
-            <a href="/about">normal link -- about page</a>
         </header>
 
         <!-- Output the page content-->
-        <div>
+        <div class="container mx-auto p-4">
             <slot /><!-- a pages in Pages folder-->
-        </div>
 
-        <footer class="footer"> Page Footer</footer>
+            <footer class="footer"> Page Footer</footer>
+        </div>
     </main>
 </template>
 
 <style scoped>
 .router-link-exact-active {
-    color: greenyellow;
-}
-
-nav {
-    background: #aee5bb;
-}
-
-footer {
-    background: #aee5bb;
+    color: rgb(85, 193, 75);
 }
 </style>
