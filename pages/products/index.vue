@@ -3,8 +3,8 @@ definePageMeta({
     layout: 'products'
 })
 
-//  fetch the products
 // Docs: https://fakestoreapi.com/docs
+//  fetch the products
 const { data: products } = await useFetch('https://fakestoreapi.com/products')
 </script>
 
