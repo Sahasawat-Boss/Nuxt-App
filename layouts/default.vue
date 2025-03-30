@@ -2,7 +2,7 @@
     <main>
         <header class="shadow-sm">
             <nav class="container mx-auto p-4 flex justify-between">
-                <NuxtLink to="/" class="font-bold">Nuxt App Test</NuxtLink>
+                <NuxtLink to="/" class="font-bold">Nuxt App</NuxtLink>
                 <ul class="flex gap-4">
                     <li>
                         <NuxtLink to="/" active-class="text-blue-500">Home</NuxtLink>
@@ -24,7 +24,7 @@
 
         <!-- Simple Footer -->
         <footer class="text-center py-4 mt-8 text-sm text-gray-600 shadow-top">
-            &copy; {{ new Date().getFullYear() }} Nuxt App — Built with ❤️ by Boss
+            &copy; {{ new Date().getFullYear() }} Nuxt App — by Boss
         </footer>
     </main>
 </template>

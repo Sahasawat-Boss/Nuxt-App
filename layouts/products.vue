@@ -3,7 +3,7 @@
         <!-- Output the page content-->
         <header class="shadow-sm bg-white">
             <nav class="container mx-auto p-4">
-                <NuxtLink to="/products" class="font-bold">Nuxt App Product</NuxtLink>
+                <NuxtLink to="/products" class="font-bold">Nuxt App</NuxtLink>
             </nav>
         </header>
         <nav class="container mx-auto p-4 flex justify-between border-t-1">
@@ -26,7 +26,7 @@
 
     <!-- Simple Footer -->
     <footer class="text-center py-4 mt-8 text-sm text-gray-600 shadow-top">
-        &copy; {{ new Date().getFullYear() }} Nuxt App — Built with ❤️ by Boss
+        &copy; {{ new Date().getFullYear() }} Nuxt App — by Boss
     </footer>
 </template>
 
