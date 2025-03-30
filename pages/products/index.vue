@@ -1,7 +1,17 @@
 <template>
+<div>
+    <header>
+        <nav>
+            <li><NuxtLink to=""></NuxtLink></li>
+        </nav>
+    </header>
+
+
+
     <h2>Products Home Page</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas ducimus
     </p>
+</div>
 </template>
 
 <script setup>
