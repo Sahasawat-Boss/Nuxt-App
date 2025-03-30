@@ -1,7 +1,8 @@
 <template>
     <main>
-        <h2 class="">Home</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas
+        <h2>Home</h2>
+        <p>Home Page Details:</p>
+        <p>ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas
             ducimus
         </p>
     </main>

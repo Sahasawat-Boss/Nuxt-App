@@ -1,7 +1,8 @@
 <template>
     <main>
         <h2>About</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas
+        <p>About Page Details:</p>
+        <p>ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas
             ducimus
         </p>
     </main>

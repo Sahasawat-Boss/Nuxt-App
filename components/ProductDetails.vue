@@ -10,6 +10,13 @@
                 <p class="text-lg my-7">Price - ${{ product.price }}</p>
                 <h3 class="font-bold border-b-2 mb-4 pb-2">Product description:</h3>
                 <p class="mb-3">{{ product.description }}</p>
+                
+                <!-- material-icons from Meta Tag: -->
+                <!-- link: [ { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },], -->
+                <button class="btn flex">
+                    <i class="material-icons mr-2">add_shopping_cart</i>
+                    <span>Add to cart</span>
+                </button>
             </div>
         </div>
     </div>
