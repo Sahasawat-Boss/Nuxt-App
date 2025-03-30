@@ -12,7 +12,7 @@ const { data: products } = await useFetch('https://fakestoreapi.com/products')
     <div>
         <h2>Products Home Page</h2>
         <div class="grid grid-cols-4 gap-5">
-            <div v-for="p in products" :key="p.id">
+            <div v-for="p in products" :key="p.id" class="shadow-sm text-sm hover:scale-105 transition p-2">
                 <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
             </div>
         </div>
