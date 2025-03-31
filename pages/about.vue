@@ -18,8 +18,11 @@
 //   method: 'post',
 //   body: {age: 30}
 // })
-const { data } = await useFetch('/api/privateAPI')
 
+//const { data } = await useFetch('/api/privateAPI')
+
+const { data } = await useFetch('/api/currency/GBP')
+// Return: GBP Code and Value (Compare to USD)
 </script>
 
 <style scoped>
