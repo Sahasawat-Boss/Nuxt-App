@@ -5,10 +5,20 @@
         <p>ipsum dolor sit amet consectetur adipisicing elit. Autem eaque placeat illum ratione, porro quas
             ducimus
         </p>
+        <div>
+            {{ data }}
+        </div>
     </main>
 </template>
 
 <script setup>
+// const { data } = await useFetch(`/api/hello`)
+// const { data } = await useFetch('/api/privateAPI?name=mario')
+// const { data } = await useFetch('/api/privateAPI?name=mario', {
+//   method: 'post',
+//   body: {age: 30}
+// })
+const { data } = await useFetch('/api/privateAPI')
 
 </script>
 
