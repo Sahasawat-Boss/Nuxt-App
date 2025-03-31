@@ -1,4 +1,11 @@
 <script setup>
+//Custom Meta Tag
+useHead({
+    title: 'Nuxt App | Product',
+    meta: [
+        { name: 'description', content: 'Nuxt 3 Product' }
+    ]
+})
 definePageMeta({
     layout: 'products'
 })

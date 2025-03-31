@@ -17,11 +17,11 @@ export default defineNuxtConfig({
 //**===== Meta Tag ========================
   app: {
     head: {
-      title: 'Nuxt App Course',
+      title: 'Nuxt App',
       meta: [
-        { name: 'description', content: 'Everything about Nuxt 3 App Course' },
+        { name: 'description', content: 'Everything about Nuxt 3 App' },
       ],
-      
+
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
       ],
