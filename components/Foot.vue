@@ -1,6 +1,6 @@
 <template>
     <footer class="text-center py-4 mt-8 text-sm text-gray-600 shadow-top">
-    &copy; {{ new Date().getFullYear() }} Nuxt App — by Boss
+    &copy; {{ new Date().getFullYear() }} Nuxt App — by Boss from Net Ninja
     </footer>
 </template>
 
