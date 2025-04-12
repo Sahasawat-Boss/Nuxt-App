@@ -1,4 +1,5 @@
 # SRC
+- Nuxt Course from Net Ninja YT
 
 ## YT
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9haQlqdCQyYmL_27TesCGPC
